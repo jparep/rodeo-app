@@ -1,4 +1,4 @@
-# Rodeo Registration Management System
+# Rodeo Registration App
 
 A Django-based web application for managing rodeo event registrations. This application uses PostgreSQL for the database, Django Rest Framework for the API, and includes support for environment-specific settings and CORS headers.
 
