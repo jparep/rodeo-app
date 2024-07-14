@@ -24,7 +24,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'core',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -98,4 +98,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Custom user model
-#AUTH_USER_MODEL = 'users.User'
+AUTH_USER_MODEL = 'users.User'
