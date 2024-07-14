@@ -1,5 +1,4 @@
 import os
-from pathlib import Path
 from . import env, BASE_DIR
 
 # SECURITY WARNING: keep the secret key used in production secret!
